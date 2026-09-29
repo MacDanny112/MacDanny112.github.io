@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent — Personal Google Workspace Bridge</title>
+<style>
+  body { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1c1c1e; background: #fff; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #6b6b70; margin-top: 0; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; border-bottom: 1px solid #e5e5ea; padding-bottom: .3rem; }
+  code { background: #f4f4f6; padding: .12em .4em; border-radius: 4px; font-size: .92em; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e5e5ea;
+           color: #6b6b70; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>Hermes Agent — Personal Google Workspace Bridge</h1>
+<p class="sub">A private, single-user integration. Operated by the owner of the connected Google account.</p>
+
+<h2>What this application is</h2>
+<p>
+  This is a <strong>personal automation tool</strong> that connects a locally-run AI
+  assistant (Hermes Agent, running on the operator's own Windows PC) to
+  <strong>that same operator's own Google account</strong>. It is not a public
+  product, it has no other users, and it is not offered to the public.
+</p>
+<p>
+  It exists so the assistant can help its operator keep track of university
+  coursework: reading the calendar and inbox to surface deadlines, and reading
+  and writing documents the operator is already working on.
+</p>
+
+<h2>Who uses it</h2>
+<p>
+  Exactly one person: the owner of the Google account it is authorised against.
+  No third party has access, and no data is
+  served to anyone else. The application requests no login and exposes no
+  content publicly &mdash; it only runs on the operator's own machine.
+</p>
+
+<h2>Google user data this application requests, and why</h2>
+<ul>
+  <li><strong>Gmail</strong> (read, modify, send) &mdash; to find university and
+      administrative email, surface anything with a deadline, and draft replies the
+      operator reviews before sending.</li>
+  <li><strong>Google Calendar</strong> &mdash; to read upcoming classes, consultations
+      and assessment deadlines, and to create reminder events at the operator's request.</li>
+  <li><strong>Google Drive, Sheets and Docs</strong> &mdash; to read and update the
+      operator's own coursework drafts, notes and spreadsheets.</li>
+  <li><strong>Contacts</strong> (read-only) &mdash; to resolve names to email addresses
+      when drafting messages.</li>
+</ul>
+
+<h2>How your data is handled</h2>
+<p>
+  All Google user data stays on the operator's own computer. OAuth tokens are
+  stored in a local file on that machine. Nothing is transmitted to any
+  third-party service, nothing is sold, and nothing is used for advertising.
+  See the <a href="privacy.html">Privacy Policy</a> for the full detail.
+</p>
+
+<h2>Legal</h2>
+<ul>
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Service</a></li>
+</ul>
+
+<footer>
+  This application's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+  Services User Data Policy</a>, including the Limited Use requirements.<br>
+  Last updated: 29 September 2026.
+</footer>
+
+</body>
+</html>
